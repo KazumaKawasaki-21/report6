@@ -3,13 +3,14 @@ package jp.ac.uryukyu.ie.e245721;
 import org.junit.jupiter.api.Test;
 import java.util.ArrayList;
 
-import static org.junit.jupiter.api.Assertions.*;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 
 class GameTest {
     @Test
     void testCalculateHandValue() {
         Game game = new Game();
-        Deck deck = new Deck();
         Card card1 = new Card("Hearts", "10", 10);
         Card card2 = new Card("Diamonds", "Ace", 11);
 
